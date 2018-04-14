@@ -1,0 +1,176 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"16 /home/krish/MPLABXProjects/Quadcopter_Transmitter.X/lcd.h
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"27
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+[v i1_lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+"39
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+[v i1_lcd_data lcd_data `(v  1 e 1 0 ]
+"51
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+[v i1_lcd_string lcd_string `(v  1 e 1 0 ]
+"61
+[v _lcd_int lcd_int `(v  1 e 1 0 ]
+"6 /opt/microchip/xc8/v1.44/sources/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 /opt/microchip/xc8/v1.44/sources/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"62 /opt/microchip/xc8/v1.44/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /opt/microchip/xc8/v1.44/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"15 /opt/microchip/xc8/v1.44/sources/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v1.44/sources/pic/eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"17 /home/krish/MPLABXProjects/Quadcopter_Transmitter.X/main.c
+[v _pic_init pic_init `(v  1 e 1 0 ]
+"26
+[v _ext_int ext_int `II(v  1 e 1 0 ]
+"44
+[v _disp_PID disp_PID `(v  1 e 1 0 ]
+"80
+[v _main main `(v  1 e 1 0 ]
+"338 /opt/microchip/xc8/v1.44/include/pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"452
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"1253
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1373
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1497
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2521
+[v _INTE INTE `VEb  1 e 0 @92 ]
+"2525
+[v _INTF INTF `VEb  1 e 0 @89 ]
+"13 /home/krish/MPLABXProjects/Quadcopter_Transmitter.X/main.c
+[v _page_no page_no `i  1 e 2 0 ]
+"14
+[v _P P `ui  1 e 2 0 ]
+[v _I I `ui  1 e 2 0 ]
+[v _D D `ui  1 e 2 0 ]
+"80
+[v _main main `(v  1 e 1 0 ]
+{
+"91
+} 0
+"17
+[v _pic_init pic_init `(v  1 e 1 0 ]
+{
+"24
+} 0
+"51 /home/krish/MPLABXProjects/Quadcopter_Transmitter.X/lcd.h
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+{
+[v lcd_string@s s `*.24uc  1 a 1 wreg ]
+"53
+[v lcd_string@i i `i  1 a 2 19 ]
+"51
+[v lcd_string@s s `*.24uc  1 a 1 wreg ]
+"53
+[v lcd_string@s s `*.24uc  1 a 1 21 ]
+"59
+} 0
+"39
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+{
+[v lcd_data@d d `i  1 p 2 13 ]
+"49
+} 0
+"16
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"25
+} 0
+"27
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+{
+[v lcd_cmd@c c `i  1 p 2 13 ]
+"37
+} 0
+"26 /home/krish/MPLABXProjects/Quadcopter_Transmitter.X/main.c
+[v _ext_int ext_int `II(v  1 e 1 0 ]
+{
+"33
+[v ext_int@j j `i  1 a 2 11 ]
+"42
+} 0
+"44
+[v _disp_PID disp_PID `(v  1 e 1 0 ]
+{
+"78
+} 0
+"51 /home/krish/MPLABXProjects/Quadcopter_Transmitter.X/lcd.h
+[v i1_lcd_string lcd_string `(v  1 e 1 0 ]
+{
+[v i1lcd_string@s s `*.24uc  1 a 1 wreg ]
+[v i1lcd_string@i lcd_string `i  1 a 2 1 ]
+[v i1lcd_string@s s `*.24uc  1 a 1 wreg ]
+"53
+[v i1lcd_string@s s `*.24uc  1 a 1 0 ]
+"59
+} 0
+"27
+[v i1_lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+{
+[v i1lcd_cmd@c c `i  1 p 2 0 ]
+"37
+} 0
+"61
+[v _lcd_int lcd_int `(v  1 e 1 0 ]
+{
+"63
+[v lcd_int@j j `i  1 a 2 2 ]
+"61
+[v lcd_int@i i `i  1 p 2 11 ]
+"75
+} 0
+"39
+[v i1_lcd_data lcd_data `(v  1 e 1 0 ]
+{
+[v i1lcd_data@d d `i  1 p 2 7 ]
+"49
+} 0
+"15 /opt/microchip/xc8/v1.44/sources/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"6 /opt/microchip/xc8/v1.44/sources/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"6
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"35
+} 0
+"6 /opt/microchip/xc8/v1.44/sources/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0
